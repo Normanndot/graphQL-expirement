@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3C96534291E8EA90092356D /* GraphQLExperiementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C96533291E8EA90092356D /* GraphQLExperiementApp.swift */; };
+		A3C96536291E8EA90092356D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C96535291E8EA90092356D /* ContentView.swift */; };
+		A3C96538291E8EAA0092356D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C96537291E8EAA0092356D /* Assets.xcassets */; };
+		A3C9653B291E8EAA0092356D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C9653A291E8EAA0092356D /* Preview Assets.xcassets */; };
+		A3C96545291E8EAA0092356D /* GraphQLExperiementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C96544291E8EAA0092356D /* GraphQLExperiementTests.swift */; };
+		A3C9654F291E8EAA0092356D /* GraphQLExperiementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9654E291E8EAA0092356D /* GraphQLExperiementUITests.swift */; };
+		A3C96551291E8EAA0092356D /* GraphQLExperiementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C96550291E8EAA0092356D /* GraphQLExperiementUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3C96541291E8EAA0092356D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C96528291E8EA90092356D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C9652F291E8EA90092356D;
+			remoteInfo = GraphQLExperiement;
+		};
+		A3C9654B291E8EAA0092356D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C96528291E8EA90092356D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C9652F291E8EA90092356D;
+			remoteInfo = GraphQLExperiement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3C96530291E8EA90092356D /* GraphQLExperiement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLExperiement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C96533291E8EA90092356D /* GraphQLExperiementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLExperiementApp.swift; sourceTree = "<group>"; };
+		A3C96535291E8EA90092356D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3C96537291E8EAA0092356D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3C9653A291E8EAA0092356D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3C96540291E8EAA0092356D /* GraphQLExperiementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLExperiementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C96544291E8EAA0092356D /* GraphQLExperiementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLExperiementTests.swift; sourceTree = "<group>"; };
+		A3C9654A291E8EAA0092356D /* GraphQLExperiementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLExperiementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C9654E291E8EAA0092356D /* GraphQLExperiementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLExperiementUITests.swift; sourceTree = "<group>"; };
+		A3C96550291E8EAA0092356D /* GraphQLExperiementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLExperiementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C9652D291E8EA90092356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9653D291E8EAA0092356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C96547291E8EAA0092356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3C96527291E8EA90092356D = {
+			isa = PBXGroup;
+			children = (
+				A3C96532291E8EA90092356D /* GraphQLExperiement */,
+				A3C96543291E8EAA0092356D /* GraphQLExperiementTests */,
+				A3C9654D291E8EAA0092356D /* GraphQLExperiementUITests */,
+				A3C96531291E8EA90092356D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C96531291E8EA90092356D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C96530291E8EA90092356D /* GraphQLExperiement.app */,
+				A3C96540291E8EAA0092356D /* GraphQLExperiementTests.xctest */,
+				A3C9654A291E8EAA0092356D /* GraphQLExperiementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C96532291E8EA90092356D /* GraphQLExperiement */ = {
+			isa = PBXGroup;
+			children = (
+				A3C96533291E8EA90092356D /* GraphQLExperiementApp.swift */,
+				A3C96535291E8EA90092356D /* ContentView.swift */,
+				A3C96537291E8EAA0092356D /* Assets.xcassets */,
+				A3C96539291E8EAA0092356D /* Preview Content */,
+			);
+			path = GraphQLExperiement;
+			sourceTree = "<group>";
+		};
+		A3C96539291E8EAA0092356D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9653A291E8EAA0092356D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3C96543291E8EAA0092356D /* GraphQLExperiementTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3C96544291E8EAA0092356D /* GraphQLExperiementTests.swift */,
+			);
+			path = GraphQLExperiementTests;
+			sourceTree = "<group>";
+		};
+		A3C9654D291E8EAA0092356D /* GraphQLExperiementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9654E291E8EAA0092356D /* GraphQLExperiementUITests.swift */,
+				A3C96550291E8EAA0092356D /* GraphQLExperiementUITestsLaunchTests.swift */,
+			);
+			path = GraphQLExperiementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C9652F291E8EA90092356D /* GraphQLExperiement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C96554291E8EAA0092356D /* Build configuration list for PBXNativeTarget "GraphQLExperiement" */;
+			buildPhases = (
+				A3C9652C291E8EA90092356D /* Sources */,
+				A3C9652D291E8EA90092356D /* Frameworks */,
+				A3C9652E291E8EA90092356D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphQLExperiement;
+			productName = GraphQLExperiement;
+			productReference = A3C96530291E8EA90092356D /* GraphQLExperiement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3C9653F291E8EAA0092356D /* GraphQLExperiementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C96557291E8EAA0092356D /* Build configuration list for PBXNativeTarget "GraphQLExperiementTests" */;
+			buildPhases = (
+				A3C9653C291E8EAA0092356D /* Sources */,
+				A3C9653D291E8EAA0092356D /* Frameworks */,
+				A3C9653E291E8EAA0092356D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C96542291E8EAA0092356D /* PBXTargetDependency */,
+			);
+			name = GraphQLExperiementTests;
+			productName = GraphQLExperiementTests;
+			productReference = A3C96540291E8EAA0092356D /* GraphQLExperiementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3C96549291E8EAA0092356D /* GraphQLExperiementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C9655A291E8EAA0092356D /* Build configuration list for PBXNativeTarget "GraphQLExperiementUITests" */;
+			buildPhases = (
+				A3C96546291E8EAA0092356D /* Sources */,
+				A3C96547291E8EAA0092356D /* Frameworks */,
+				A3C96548291E8EAA0092356D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C9654C291E8EAA0092356D /* PBXTargetDependency */,
+			);
+			name = GraphQLExperiementUITests;
+			productName = GraphQLExperiementUITests;
+			productReference = A3C9654A291E8EAA0092356D /* GraphQLExperiementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C96528291E8EA90092356D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A3C9652F291E8EA90092356D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A3C9653F291E8EAA0092356D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A3C9652F291E8EA90092356D;
+					};
+					A3C96549291E8EAA0092356D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A3C9652F291E8EA90092356D;
+					};
+				};
+			};
+			buildConfigurationList = A3C9652B291E8EA90092356D /* Build configuration list for PBXProject "GraphQLExperiement" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3C96527291E8EA90092356D;
+			productRefGroup = A3C96531291E8EA90092356D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C9652F291E8EA90092356D /* GraphQLExperiement */,
+				A3C9653F291E8EAA0092356D /* GraphQLExperiementTests */,
+				A3C96549291E8EAA0092356D /* GraphQLExperiementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3C9652E291E8EA90092356D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9653B291E8EAA0092356D /* Preview Assets.xcassets in Resources */,
+				A3C96538291E8EAA0092356D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9653E291E8EAA0092356D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C96548291E8EAA0092356D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C9652C291E8EA90092356D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C96536291E8EA90092356D /* ContentView.swift in Sources */,
+				A3C96534291E8EA90092356D /* GraphQLExperiementApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9653C291E8EAA0092356D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C96545291E8EAA0092356D /* GraphQLExperiementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C96546291E8EAA0092356D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9654F291E8EAA0092356D /* GraphQLExperiementUITests.swift in Sources */,
+				A3C96551291E8EAA0092356D /* GraphQLExperiementUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3C96542291E8EAA0092356D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C9652F291E8EA90092356D /* GraphQLExperiement */;
+			targetProxy = A3C96541291E8EAA0092356D /* PBXContainerItemProxy */;
+		};
+		A3C9654C291E8EAA0092356D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C9652F291E8EA90092356D /* GraphQLExperiement */;
+			targetProxy = A3C9654B291E8EAA0092356D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3C96552291E8EAA0092356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3C96553291E8EAA0092356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3C96555291E8EAA0092356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphQLExperiement/Preview Content\"";
+				DEVELOPMENT_TEAM = 72SWSJM6U2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dottie.GraphQLExperiement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3C96556291E8EAA0092356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphQLExperiement/Preview Content\"";
+				DEVELOPMENT_TEAM = 72SWSJM6U2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dottie.GraphQLExperiement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3C96558291E8EAA0092356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SWSJM6U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dottie.GraphQLExperiementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLExperiement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphQLExperiement";
+			};
+			name = Debug;
+		};
+		A3C96559291E8EAA0092356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SWSJM6U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dottie.GraphQLExperiementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLExperiement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphQLExperiement";
+			};
+			name = Release;
+		};
+		A3C9655B291E8EAA0092356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SWSJM6U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dottie.GraphQLExperiementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphQLExperiement;
+			};
+			name = Debug;
+		};
+		A3C9655C291E8EAA0092356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SWSJM6U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dottie.GraphQLExperiementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphQLExperiement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3C9652B291E8EA90092356D /* Build configuration list for PBXProject "GraphQLExperiement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C96552291E8EAA0092356D /* Debug */,
+				A3C96553291E8EAA0092356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C96554291E8EAA0092356D /* Build configuration list for PBXNativeTarget "GraphQLExperiement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C96555291E8EAA0092356D /* Debug */,
+				A3C96556291E8EAA0092356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C96557291E8EAA0092356D /* Build configuration list for PBXNativeTarget "GraphQLExperiementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C96558291E8EAA0092356D /* Debug */,
+				A3C96559291E8EAA0092356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C9655A291E8EAA0092356D /* Build configuration list for PBXNativeTarget "GraphQLExperiementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C9655B291E8EAA0092356D /* Debug */,
+				A3C9655C291E8EAA0092356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3C96528291E8EA90092356D /* Project object */;
+}
